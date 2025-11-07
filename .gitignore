@@ -1,1 +1,19 @@
 keys.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs and progress files
+*.log
+*.progress.json
+
+# Backup CSV files
+*-copy-*.csv
+
+# Data files
+code-review-dataset-full.csv
+processed-code-review-dataset-full.csv
+mitigate-code-review-dataset-full.csv
+test.csv
+test.xlsx
